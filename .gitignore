@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+faiss_index/
+problematic_ingestion_docs.txt
+.env
