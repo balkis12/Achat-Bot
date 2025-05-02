@@ -152,6 +152,7 @@ if user_input:
             context = "\n\n".join([doc.page_content for doc in result['source_documents']])
             answer = generate_answer_with_context(llm, context, user_input)
             st.markdown(answer)
+            
 
     current_session["messages"].append({"role": "assistant", "content": answer})
 
