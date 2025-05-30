@@ -1,5 +1,7 @@
-__pycache__/
-*.pyc
-faiss_index/
-problematic_ingestion_docs.txt
-.env
+# Ignore tout  
+*
+
+# Sauf ces dossiers/fichiers  
+!faiss_index/
+!Data_Generation.py
+!achatbot.py
