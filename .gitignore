@@ -1,8 +1,10 @@
-# Ignore tout  
+# Ignore tout
 *
 
-# Sauf ces dossiers/fichiers  
+# Sauf ces dossiers/fichiers
 !faiss_index/
-!Data_Generation.py
+!Data_Generation/
 !achatbot.py
 !images/
+!requirements.txt   # Ajoute cette ligne
+
